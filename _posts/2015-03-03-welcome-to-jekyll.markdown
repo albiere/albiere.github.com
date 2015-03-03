@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My First Blog Post"
 date:   2015-03-03 14:25:25
-categories: jekyll update
+categories: software development
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Every program has a shape. On a small scale, this shape is determined by its division into functions and the blocks inside those functions. Programmers have a lot of freedom in the way they structure their programs. Shape follows more from the taste of the programmer than from the program’s intended functionality.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+You may have heard of static-site generators before. A static-site generator simply takes your pre-compiled (and pre-processed) languages like Haml, Jade, Sass, LESS, Stylus, CoffeeScript, and others, and compiles them into the equivalent language that is understood by the browser; HTML, CSS.
 
-Jekyll also offers powerful support for code snippets:
+Programmers have a lot of freedom in the way they structure their programs.
 
 {% highlight ruby %}
 def print_hi(name)
@@ -16,9 +16,19 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
+
+def say_hi()
+  puts "Hi!"
+end
+say_hi()
+#=> prints 'Hi!' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet dictum quam, vestibulum elementum lectus tincidunt ut. Phasellus pretium consectetur tellus at tincidunt. Praesent euismod eget dolor vel fermentum. Nulla eget elit a orci pellentesque malesuada sit amet sit amet nisl. 
+
+> DONEC ultrices LOREM ODIO, ET PHARETRA DOLOR CURSUS AC. PELLENTESQUE MET US LOREM, DIGNISSIM IN SUSCIPIT AT.
+
+Suspendisse efficitur sapien vel lacus porta aliquam. Cras ultrices elit porta nisi rutrum, in pretium diam placerat. Quisque ex orci, facilisis quis metus eu, tristique rutrum dolor. Nam faucibus nibh velit, id commodo ipsum eleifend quis.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll

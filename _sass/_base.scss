@@ -4,6 +4,11 @@
 
 $font-family: "proxima-nova", sans-serif;
 $heading-color: #333;
+$light-gray: #575757;
+$separator-color: #EFEFEF;
+
+$background-code: #EFEFEF;
+$margin-inside-article: 20px;
 
 /*
  * SETTINGS
@@ -18,81 +23,35 @@ body {
   font-size: 16px;
 }
 
-.container {
+@mixin containerized {
   margin: 0 auto;
   width: 800px;
 }
 
-/*
- * HEADER
- */
-.site-header {
-  margin: 70px 0 0 0;
-  height: 100px;
+.container {
+  @include containerized;
+}
 
-  background: #333 url(/images/pattern.png);
-  color: #fff;
+main {
+  margin: 80px 0 0 0;
+}
 
-  a {
-    display: block;
-    height: 100%;
-    color: #fff;
-    text-decoration: none;
-  }
+.button.read-more {
+  display: inline-block;
+  width: 180px;
 
-  .logo {
-    position: relative;
-    top: -40px;
+  font-size: 1.25rem;
+  line-height: 40px;
+  text-align: center;
 
-    float: left;
-    width: 180px;
-    height: 180px;
+  border: 2px solid #333333;
+  color: #333333;
 
-    background: url(/images/logo.png);
-    text-indent: -9999px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: #D3D3D3;
   }
 }
 
-.about-header {
-
-  float: left;
-  margin: 18px 0 18px 25px;
-  
-  h1 {
-    font-weight: 700;
-    font-size: 2.25rem;
-  }
-
-  h1 > a {
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  em {
-    display: block;
-
-    font-weight: 300;
-    font-style: italic;
-    font-size: 1rem;
-  }
-}
-
-.links {
-  float: right; 
-  margin: 28px 0;
-
-  ul { 
-    list-style: none; 
-  }
-  
-  li { 
-    display: inline-block; 
-    float: left; 
-    margin: 0 0 0 25px;
-  }
-
-  li > a {
-    font-size: 2.25rem; 
-  }
-}

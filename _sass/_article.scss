@@ -1,0 +1,73 @@
+/*
+ * ARTICLES
+ */
+.article {
+  border-bottom: solid 1px $separator-color;
+}
+
+.article .header-article {
+  @include containerized;
+
+  h1 {
+    font-size: 3rem;  
+    line-height: 3.625rem;
+    color: $heading-color;
+  }
+
+  time {
+    font-size: 1.125rem;
+    color: $light-gray;
+  }
+
+}
+
+.article .content-article {
+  font-size: 1.375rem;
+  line-height: 2rem;
+  font-weight: 300;
+
+  > p {
+    @include containerized;
+    margin-top: $margin-inside-article; 
+
+    &:first-child {
+      margin-top: 30px;
+    }
+
+    & > code {
+      background-color: $background-code;
+    }
+
+    & > a {
+      color: #333;
+    }
+  }
+  
+  blockquote {
+    @include containerized;
+    margin-top: $margin-inside-article; 
+
+    > p {
+      margin: 0 0 0 60px;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      color: #525252;
+    }
+
+  }
+
+  .highlight {
+    margin: $margin-inside-article 0 0 0; 
+    padding: $margin-inside-article 0;
+    background-color: $background-code;
+    
+    pre {
+      @include containerized;
+    }
+  }
+
+}
+
+.article .links {
+  margin: 30px 0;
+}
