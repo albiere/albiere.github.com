@@ -1,3 +1,18 @@
 <header class="site-header">
+  <div class="container">  
+    <h1 class="logo"><a href="/">Albiere Blog</a></h1>
 
+    <section class="about-header">
+      <h1><a href="/about">Angelo Albiero Neto</a></h1>
+      <em>Software Developer</em>
+    </section>
+
+    <section class="links">
+      <ul>
+        <li><a href="{{ site.github_username | prepend: 'http://github.com/' }}" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="{{ site.twitter_username | prepend: 'http://twitter.com/' }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="{{ '/feed.xml' | prepend: site.url  }}" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </section>
+  </div>
 </header>
