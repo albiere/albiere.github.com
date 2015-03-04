@@ -1,0 +1,26 @@
+---
+
+layout: post
+title:  "My Second Post"
+date:   2015-03-05 14:25:25
+links:  ['http://albiere.com/correios-support-active-shipping', 'http://blog.fallingsnow.net/2014/11/09/on-portable-computation', 'http://anti-pattern.com/testing-activerecord-transactions-the-right-way']
+
+---
+
+You may have heard of static-site generators before. A static-site generator simply takes your pre-compiled (and pre-processed) languages like Haml, Jade, Sass, LESS, Stylus, CoffeeScript, and others, and compiles them into the equivalent language that is understood by the browser; HTML, CSS.
+
+Programmers have a lot of freedom in the way they structure their programs.
+
+{% highlight ruby %}
+def say_hi()
+  puts "Hi!"
+end
+say_hi()
+#=> prints 'Hi!' to STDOUT.
+{% endhighlight %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet dictum quam, vestibulum elementum lectus tincidunt ut. Phasellus pretium consectetur tellus at tincidunt. Praesent euismod eget dolor vel fermentum. Nulla eget elit a orci pellentesque malesuada sit amet sit amet nisl. 
+
+> DONEC ultrices LOREM ODIO, ET PHARETRA DOLOR CURSUS AC. PELLENTESQUE MET US LOREM, DIGNISSIM IN SUSCIPIT AT.
+
+Suspendisse efficitur sapien vel lacus porta aliquam. Cras ultrices elit porta nisi rutrum, in pretium diam placerat. Quisque ex orci, facilisis quis metus eu, tristique rutrum dolor. Nam faucibus nibh velit, id commodo ipsum eleifend quis.
