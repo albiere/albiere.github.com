@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="article">
+<article class="article no-separator">
   <header class="header-article">
     <h1>{{ page.title }}</h1>
     <time datetime="{{ page.date | date: "%Y-%m-%d"}}">{{ page.date | date: "%B %d, %Y"}}</time>
@@ -12,4 +12,25 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.links.size > 0 %}
+  <section class="links">
+    <h1 class="heading-2">Links</h1>
+    <ul>
+      {% for link in page.links %}
+      <li><a href="{{ link }}">{{ link }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="share">
+    <p class="left">Share it on</p>
+    <ul class="share-links">
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+    </ul>
+    <p class="updated-at right">Last Updated: February 28, 2015 09h20am</p>
+  </section>
+  
 </article>

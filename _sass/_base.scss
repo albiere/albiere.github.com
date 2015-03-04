@@ -28,6 +28,24 @@ body {
   width: 800px;
 }
 
+h1, .heading-1 {
+  font-size: 3rem;  
+  line-height: 3.625rem;
+}
+
+h2, .heading-2 {
+  font-size: 2.25rem;  
+  line-height: 2.75rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .container {
   @include containerized;
 }
