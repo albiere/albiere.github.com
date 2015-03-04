@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-date: 2015-03-03 20:55:00 
+date: 2015-03-03 20:55:00
 permalink: /about/
 ---
 

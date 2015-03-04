@@ -10,6 +10,7 @@ $separator-color: #EFEFEF;
 $background-code: #EFEFEF;
 $margin-inside-article: 20px;
 
+$mobile: max-width 500px;
 /*
  * SETTINGS
  */
@@ -26,6 +27,18 @@ body {
 @mixin containerized {
   margin: 0 auto;
   width: 800px;
+}
+
+@mixin containerized-mobile {
+  width: calc(100% - 20px);
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 h1, .heading-1 {
@@ -48,6 +61,7 @@ h2, .heading-2 {
 
 .container {
   @include containerized;
+  @include clearfix;
 }
 
 main {
@@ -73,3 +87,27 @@ main {
   }
 }
 
+@media (max-width: 450px) {
+  .container {
+    @include containerized-mobile;
+  }
+
+  h1, .heading-1 {
+    font-size: 1.875rem;
+    line-height: 2.3125rem;
+  }
+
+  h2, .heading-2 {
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+  }
+
+  .button.read-more {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+
+    font-size: 1rem;
+    line-height: 30px;
+  }
+}

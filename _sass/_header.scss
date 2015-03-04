@@ -24,6 +24,7 @@
     height: 180px;
 
     background: url(/images/logo.png);
+    background-size: contain;
     text-indent: -9999px;
   }
 }
@@ -59,6 +60,7 @@
   margin: 28px 0;
 
   ul { 
+    @include clearfix;
     list-style: none; 
   }
   
@@ -70,5 +72,66 @@
 
   li > a {
     font-size: 2.25rem; 
+  }
+}
+
+/*
+ * RESPONSIVE
+ */
+
+@media (max-width: 450px) {
+  #header {
+    height: 80px;
+    margin: 50px 0 0 0;
+
+    .logo {
+      float: none;
+      left: 50%;
+      top: -35px;
+
+      width: 140px;
+      height: 140px;
+      margin-left: -70px;
+    }
+  }
+
+  #header .about-header {
+    clear: both;
+    width: 100%;
+    margin: -25px 0 0 0;
+
+    text-align: center;
+    color: $heading-color;
+
+    a {
+      color: $heading-color;
+    }
+  }
+
+  #header .links {
+    clear: both;
+    width: 100%;
+    
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+
+    a {
+      color: $heading-color;
+    }
+
+    ul {
+      width: 172px;
+      margin: 0 auto;
+    }
+
+    li {
+      display: table-cell;
+      margin: 0 20px;
+    }
+
+    li > a {
+      font-size: 1.25rem;
+      line-height: 40px;
+    }
   }
 }

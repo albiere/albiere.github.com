@@ -126,9 +126,7 @@
   border-top: solid 2px #EFEFEF;
   border-bottom: solid 2px #EFEFEF;
 
-  // clearfix
-  overflow: auto;
-  zoom: 1;
+  @include clearfix;
 
   .share-links {
     float: left;
@@ -147,13 +145,87 @@
     }
   }
 
-  .updated-at {
-    font-size: 1rem;
-    font-weight: 400;
-  }
+}
 
+.article .updated-at {
+  text-align: center;
+  line-height: 80px;
 }
 
 .article .extra-info {
   margin: 30px 0;
 }
+
+@media (max-width: 450px) {
+  .article .header-article {
+    width: 100%;
+
+    h1 {
+      text-align: center;
+    }
+
+    time {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .container .article .content-article {
+    > p, blockquote, h2 {
+      width: 100%;
+    }
+  }
+
+  .article .content-article {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    > p, blockquote, h2, .highlight pre {
+      @include containerized-mobile;
+    }
+
+    blockquote > p {
+      margin: 0 0 0 30px;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+    }
+  }
+
+  .article .links {
+    @include containerized-mobile;
+
+    border-top: 6px solid #979797;
+
+    li > a {
+      font-size: 1rem;
+      line-height: 1.25rem;
+    }
+  }
+
+  .article .share {
+    @include containerized-mobile;
+
+    font-size: 1rem;
+    line-height: 44px;
+
+    .share-links {
+      float: right;
+      
+      li {
+        height: 44px;
+      }
+
+      li > a {
+        font-size: 1.5rem;
+      }
+
+    }
+  }
+
+  .article .updated-at {
+    line-height: 50px;
+    font-size: 0.8rem;
+  }
+}
+
