@@ -12,9 +12,9 @@ var PopupModule = (function(){
     return key + "=" + opts[key];
   }).join();
   
-  function openPopup() {
+  function openPopup(event) {
+    event.preventDefault();
     window.open(this.href, 'Share', queryString);
-    return false;
   }
 
   function init() {
