@@ -59,6 +59,11 @@ h2, .heading-2 {
   float: right;
 }
 
+.banner {
+  border-top: 2px solid #EFEFEF;
+  border-bottom: 2px solid #EFEFEF;
+}
+
 .container {
   @include containerized;
   @include clearfix;
@@ -100,6 +105,11 @@ main {
   h2, .heading-2 {
     font-size: 1.5rem;
     line-height: 1.8125rem;
+  }
+
+  .banner {
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
   }
 
   .button.read-more {

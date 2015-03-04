@@ -2,6 +2,7 @@
  * ARTICLES
  */
 .article {
+  margin-bottom: $margin-inside-article;
   border-bottom: solid 1px $separator-color;
   color: $heading-color;
 }
@@ -148,8 +149,12 @@
 }
 
 .article .updated-at {
+  @include containerized;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
   text-align: center;
-  line-height: 80px;
+  line-height: 40px;
 }
 
 .article .extra-info {
@@ -224,7 +229,7 @@
   }
 
   .article .updated-at {
-    line-height: 50px;
+    @include containerized-mobile;
     font-size: 0.8rem;
   }
 }
