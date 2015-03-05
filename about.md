@@ -1,11 +1,13 @@
 ---
 layout: page
 title: About
-date: 2015-03-03 20:55:00
+date: 2015-03-05 17:52:00
 permalink: /about/
 ---
 
-Every program has a shape. On a small scale, this shape is determined by its division into functions and the blocks inside those functions. Programmers have a lot of freedom in the way they structure their programs. Shape follows more from the taste of the programmer than from the program’s intended functionality.
+Hey guys! My name is Angelo Albiero Neto, better known as Albiere, I’m a Software Developer currently living in the amazingly beautiful New Zealand, although born and raised in the faraway Brazil. I work as a Freelance Software Developer offering my skills to the IT market around Auckland.
+
+I started my career as a Java Developer, however after some years I gravitated towards something <s>better</s> different and now I am really happy Ruby Developer.
 
 <div class="photo-gallery">
   <ul>
@@ -15,4 +17,6 @@ Every program has a shape. On a small scale, this shape is determined by its div
   </ul>
 </div>
 
-You may have heard of static-site generators before. A static-site generator simply takes your pre-compiled (and pre-processed) languages like Haml, Jade, Sass, LESS, Stylus, CoffeeScript, and others, and compiles them into the equivalent language that is understood by the browser; HTML, CSS.
+I love spending my time doing something related to Software Development. When I’m not writing code I’m watching TV Shows (can you believe I watched Breaking Bad only in 2015?), playing some video games (I’m proud owner of PS4, WiiU and 3DS. Sorry Microsoft folks) and having some beers with my friends.
+
+Thanks for stopping by and hope you stick around.
