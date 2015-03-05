@@ -13,7 +13,7 @@ I started my career as a Java Developer, dealing with a lot of noisy codebases, 
   <ul>
     <li><img src="/images/picture1.png"></li>
     <li><img src="/images/picture2.png"></li>
-    <li><img src="/images/picture1.png"></li>
+    <li><img src="/images/picture3.png"></li>
   </ul>
 </div>
 
