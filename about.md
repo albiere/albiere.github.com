@@ -7,7 +7,7 @@ permalink: /about/
 
 Hey guys! My name is Angelo Albiero Neto, a.k.a. Albiere. I’m a Software Developer currently living in the amazingly beautiful New Zealand, although born and raised in the faraway Brazil. I work as a Freelance Software Developer offering my skills to a variety of companies around Auckland.
 
-I started my career as a Java Developer, dealing with a lot of noisy codebases, however after some years I gravitated towards something ~~better~~ different and now I am really happy Ruby Developer.
+I started my career as a Java Developer, dealing with a lot of noisy codebases, however after some years I gravitated towards something <s>better</s> different and now I am really happy Ruby Developer.
 
 <div class="photo-gallery">
   <ul>
