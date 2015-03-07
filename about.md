@@ -17,6 +17,6 @@ I started my career as a Java Developer, dealing with a lot of noisy codebases, 
   </ul>
 </div>
 
-I love spending my time doing something related to Software Development, like learning something new, helping open source projects and attending meetups. When I’m not writing code I’m watching TV Shows (can you believe I watched Breaking Bad only in 2015?), playing some video games (I’m proud owner of PS4, WiiU and 3DS. Sorry Microsoft folks) and having some beers with my friends.
+I love spending my time doing something related to Software Development, like learning something new, helping open source projects and attending meetups. When I’m not writing code I’m watching TV Shows (can you believe I watched Breaking Bad only in 2015?), playing some video games (I’m a proud owner of PS4, WiiU and 3DS. Sorry Microsoft folks) and having some beers with my friends.
 
 Thanks for stopping by and hope you stick around.
